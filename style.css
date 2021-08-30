@@ -1,0 +1,16 @@
+.container {
+    max-width: 30%;
+    margin: auto;
+}
+
+input,
+label,
+#output-box {
+    display: block;
+    margin-bottom: 0.2rem;
+    width: 40%;
+}
+
+#btn-check {
+    margin: 2rem;
+}
