@@ -1,6 +1,11 @@
 .container {
-    max-width: 500px;
+    max-width: 50%;
     margin: auto;
+}
+
+#hero {
+    text-align: center;
+    margin: 4rem;
 }
 
 input,
@@ -8,9 +13,23 @@ label,
 #output-box {
     display: block;
     margin-bottom: 0.5rem;
-    width: 200px;
+}
+
+input {
+    width: 100%;
+    margin-bottom: 1rem;
 }
 
 #btn-check {
-    margin: 2rem;
+    display: block;
+    margin: 1.5rem;
+}
+
+@media (max-width: 767px) {
+    #hero {
+        margin: 0rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        font-size: 20px;
+    }
 }
