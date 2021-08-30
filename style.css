@@ -1,5 +1,5 @@
 .container {
-    max-width: 30%;
+    max-width: 500px;
     margin: auto;
 }
 
@@ -8,7 +8,7 @@ label,
 #output-box {
     display: block;
     margin-bottom: 0.2rem;
-    width: 40%;
+    width: 200px;
 }
 
 #btn-check {
