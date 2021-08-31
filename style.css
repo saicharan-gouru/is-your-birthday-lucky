@@ -1,3 +1,9 @@
+body {
+    margin: 0px;
+    background-color: #1F2937;
+    color: #6EE7B7;
+}
+
 .container {
     max-width: 50%;
     margin: auto;
@@ -23,6 +29,10 @@ input {
 #btn-check {
     display: block;
     margin: 1.5rem;
+}
+
+#output-box {
+    font-size: 1.5rem;
 }
 
 @media (max-width: 767px) {
